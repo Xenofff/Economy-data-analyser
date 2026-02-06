@@ -12,7 +12,7 @@ def main():
     args = parser.parse_args()
 
     report_registry = {
-        'average-gdp': AverageGDPReport(),
+        'average-gdp': AverageGDPReport()
     }
 
     if args.report not in report_registry:

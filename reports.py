@@ -7,6 +7,7 @@ class Report(ABC):
 
 class AverageGDPReport(Report):
     def generate(self, data):
+        if not data: return []
         stats = {}
         for row in data:
             country = row['country']

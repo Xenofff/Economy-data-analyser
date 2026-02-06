@@ -1,4 +1,3 @@
-import pytest
 from reports import AverageGDPReport
 
 def test_average_gdp():
